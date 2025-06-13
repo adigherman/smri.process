@@ -5,8 +5,7 @@
 #' @return Logical indicating if the setting was successful
 #'
 #' @export
-#' @importFrom ANTsRCore antsImageRead antsSetOrigin antsGetOrigin
-#' @importFrom ANTsRCore antsImageWrite
+#' @importFrom ANTsR antsImageRead antsSetOrigin antsGetOrigin antsImageWrite
 set_origin_zero = function(fnames) {
   stopifnot(is.character(fnames))
   res = sapply(fnames, function(fname) {

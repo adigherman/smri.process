@@ -10,8 +10,7 @@
 #'
 #' @return A list of output images, brain and corrected
 #' @export
-#' @importFrom ANTsR abpBrainExtraction abpN4
-#' @importFrom ANTsRCore is.antsImage antsImageClone
+#' @importFrom ANTsR abpBrainExtraction abpN4 is.antsImage antsImageClone
 #' @importFrom methods formalArgs
 #' @importFrom stats median
 #' @importFrom penn115 penn115_image_fname penn115_brain_fname
